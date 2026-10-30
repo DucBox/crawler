@@ -1,0 +1,24 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# thong tin nhay cam
+.env
+.env.*
+!.env.example
+
+# du lieu va ket qua chay
+output/
+images/
+*.tsv
+*.done
+*.failed
+probe_log*.csv
+
+# du lieu da co san (danh sach keyword da crawl), khong dua len git
+name_da_co/
+
+# input that: chi giu file mau
+input/*
+!input/keywords.example.txt
